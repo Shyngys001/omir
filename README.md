@@ -1,1 +1,1 @@
-# omir
+# Glamping_kz

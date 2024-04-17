@@ -1,0 +1,273 @@
+
+body {
+  margin: 0;
+  padding: 50px;
+
+}
+.about_main { 
+  width: 100%;
+  display: flex;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.about_main1 { 
+  width: 100%;
+  padding-bottom: 0;
+}
+
+#nasha_istoria {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 800;
+  color: #af6811;
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.imgg{
+width: 10%;
+}
+
+
+#s_chego_nachinaetsa { 
+  color: #af6811;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 800;
+  display: none;
+}
+
+
+.about_main2 {
+  width: 80%;
+  background-color:#af6811;
+  height: 80vh;
+  background-image: url('../img/pic1.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+
+.about_main-f {
+  width: 100%;
+  display: flex;
+  border: solid 1px #af6811;
+}
+
+
+
+.vertical-lines {
+  position: absolute;
+  height: 500px;
+  width: 1px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-line-long {
+  width: 200px;
+  margin: 50px 0;
+  transform: rotate(90deg);
+  border: 0.5px solid #af6811;
+}
+
+.vertical-line {
+  border: 0.5px solid #af6811;
+  transform: rotate(90deg);
+  width: 100px;
+}
+
+.vertical-line-dot {
+  margin: 60px 0;
+}
+
+.vertical-lines-1 {
+  height: 600px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-left: 20px;
+}
+
+.vertical-line-long-1 {
+  width: 300px;
+  margin: 100px 0;
+  transform: rotate(90deg);
+  border: 0.5px solid #fff;
+}
+
+.vertical-line-1 {
+  border: 0.5px solid #fff;
+  transform: rotate(90deg);
+  width: 110px;
+}
+
+.vertical-line-dot-1 {
+  margin: 60px 0;
+  color: #fff;
+}
+
+
+
+.shyn_main2_btn {
+  border: solid 1px #af6811;
+  background-color: transparent;
+  text-align: center;
+  transition: all 0.6s;
+  margin: 0 auto;
+  font-size: 25px;
+  color: #af6811;
+  border-radius: 15px;
+}
+
+.shyn_main2_btn:hover {
+  scale: 1.2;
+  cursor: pointer;
+  background-color: #af6811;
+  color: white;
+}
+
+#my_rady, #myag, #eto {
+  color: #af6811;
+  font-size: 25px;
+  white-space: pre-wrap;
+}
+
+
+
+@media (max-width: 770px) {
+.imgg{
+    width: 25%;
+}
+
+  body {
+      padding: 15px;
+  }
+
+  .about_main { 
+      width: 100%;
+      display: block;
+  }
+
+  .about_main-f {
+    display: block;
+  }
+  
+  
+  #nasha_istoria {
+      font-size: 30px;
+      font-weight: 550;
+  }
+
+  .about_main2 {
+    height: 50vh;
+    width: 100%;
+  }
+
+  #my_rady, #eto, #myag {  
+    font-size: 20px;
+  }
+}
+
+
+
+.buttons {
+margin-top: 10px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+
+#language-block {
+width: 200px;
+height: 40px;
+display: flex;
+align-items: center;
+padding: 5px;
+border: 1px solid #af6811;
+border-radius: 5px;
+margin: 0 auto;
+}
+
+.lang-block {
+width: 100%;
+height: 100%;
+border: 1px solid #af6811;
+margin-left: 5px;
+border-radius: 5px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.lang-block div {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.lang-block div:hover {
+background-color: #af6811;
+height: 40px;
+}
+
+.language {
+width: 100%;
+text-align: center;
+cursor: pointer;
+font-weight: 600;
+}
+
+#lang-ru {
+border-left: 1px solid #af6811;
+border-right: 1px solid #af6811;
+}
+
+.buttons {
+margin-top: 10px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+#gohome {
+margin: 0;
+padding: 0;
+font-size: 1.4vw;
+text-decoration: none;
+text-transform: uppercase;
+font-family: "Montserrat", sans-serif;
+font-weight: 700;
+}
+
+#btn-home {
+border: none;
+width: 12vw;
+height: 40px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background-color: #af6811;
+color: #fff;
+transition: all 0.4s;
+}
+
+#btn-home:hover {
+transform: scale(1.1);
+}
+a {
+text-decoration: none;
+}

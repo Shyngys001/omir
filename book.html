@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Omirglamping</title>
+    <style>
+        /* Basic reset for body margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevents scrolling outside the iframe */
+        }
+
+        /* Styling for the container holding the iframe */
+        .book {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.7) 100%); /* Subtle background gradient */
+            display: flex;
+            align-items: center; /* Centers the iframe vertically */
+            justify-content: center; /* Centers the iframe horizontally */
+        }
+
+        /* Styling for the iframe itself */
+        iframe {
+            width: 95%; /* slightly less than full width for padding effect */
+            height: 95%; /* slightly less than full height to show the background */
+            border: none; /* Removes the border around the iframe */
+            box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Adds shadow for 3D effect */
+            border-radius: 10px; /* Rounds the corners of the iframe */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="book">
+        <a href="index.html">
+            <button style="border-radius: 5px; background-color: transparent;  margin: 0 auto; cursor: pointer; z-index: 5000; width: 50px; margin: 0 auto; text-align: center;">Назад</button>
+        </a>
+        <iframe src="https://www.booking.com/hotel/kz/mir-glamping-eko-otel-aktau.ru.html?aid=1263239&label=PShare-Pulse-v2tZxf%401711875001&sid=1ea1e4a2e1892ac789a6c5ff28113b12&dist=0&keep_landing=1&sb_price_type=total&type=total&"></iframe>
+    </div>
+</body>
+</html>
